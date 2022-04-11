@@ -24,6 +24,7 @@ namespace AjustaFormatacao
             try
             {
                 string codigos = textCodidos.Text;
+                string fomatador = if (textTipoFormatador.Text == "") "'";
 
                 string[] codigoTeste = codigos.Split(" ");
 
