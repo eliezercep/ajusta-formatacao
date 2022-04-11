@@ -29,15 +29,10 @@ namespace AjustaFormatacao
 
                 string[] codigosLIsta = codigoTeste[0].Split($"\r\n");
 
-                List<string> codigoProntos = new List<string>();
-
-                int cont = (int)codigosLIsta.Count;
+                List<string> codigoProntos = new List<string>();                
 
                 foreach (var item in codigosLIsta)
                 {
-
-
-
                     var linha = string.Format("'" + item + "',");
                     codigoProntos.Add(linha);
                 }
