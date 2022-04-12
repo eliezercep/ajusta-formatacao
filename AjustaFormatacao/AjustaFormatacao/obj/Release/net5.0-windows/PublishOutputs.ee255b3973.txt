@@ -1,0 +1,5 @@
+C:\PublishVS\AjustarFormatos\AjustaFormatacao.exe
+C:\PublishVS\AjustarFormatos\AjustaFormatacao.dll
+C:\PublishVS\AjustarFormatos\AjustaFormatacao.deps.json
+C:\PublishVS\AjustarFormatos\AjustaFormatacao.runtimeconfig.json
+C:\PublishVS\AjustarFormatos\AjustaFormatacao.pdb

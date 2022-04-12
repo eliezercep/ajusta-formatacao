@@ -34,7 +34,7 @@ namespace AjustaFormatacao
 
                 foreach (var item in codigosLIsta)
                 {
-                    var linha = string.Format(formatador + item + formatador);
+                    var linha = string.Format(formatador + item + formatador + ",");
                     codigoProntos.Add(linha);
                 }
 
@@ -62,7 +62,7 @@ namespace AjustaFormatacao
                     }
                 }
 
-                MessageBox.Show("Códigos formatados com sucesso");
+                MessageBox.Show("Códigos formatados com sucesso! Clique em abrir para analisar como ficou.");
 
             }
             catch(Exception erro)

@@ -42,7 +42,7 @@
             this.btnAjustar.Name = "btnAjustar";
             this.btnAjustar.Size = new System.Drawing.Size(162, 52);
             this.btnAjustar.TabIndex = 0;
-            this.btnAjustar.Text = "Ajustar";
+            this.btnAjustar.Text = "Ajustar Formato";
             this.btnAjustar.UseVisualStyleBackColor = true;
             this.btnAjustar.Click += new System.EventHandler(this.btnAjustar_Click);
             // 
