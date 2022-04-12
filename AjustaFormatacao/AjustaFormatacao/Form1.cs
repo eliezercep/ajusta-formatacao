@@ -24,17 +24,17 @@ namespace AjustaFormatacao
             try
             {
                 string codigos = textCodidos.Text;
-                string fomatador = if (textTipoFormatador.Text == "") "'";
+                string formatador = ((textTipoFormatador.Text == "") ? "'" : textTipoFormatador.Text);
 
                 string[] codigoTeste = codigos.Split(" ");
 
                 string[] codigosLIsta = codigoTeste[0].Split($"\r\n");
 
-                List<string> codigoProntos = new List<string>();                
+                List<string> codigoProntos = new List<string>();
 
                 foreach (var item in codigosLIsta)
                 {
-                    var linha = string.Format("'" + item + "',");
+                    var linha = string.Format(formatador + item + formatador);
                     codigoProntos.Add(linha);
                 }
 

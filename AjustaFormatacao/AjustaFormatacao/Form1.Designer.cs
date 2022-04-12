@@ -37,9 +37,10 @@
             // 
             // btnAjustar
             // 
-            this.btnAjustar.Location = new System.Drawing.Point(198, 471);
+            this.btnAjustar.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnAjustar.Location = new System.Drawing.Point(198, 462);
             this.btnAjustar.Name = "btnAjustar";
-            this.btnAjustar.Size = new System.Drawing.Size(144, 43);
+            this.btnAjustar.Size = new System.Drawing.Size(162, 52);
             this.btnAjustar.TabIndex = 0;
             this.btnAjustar.Text = "Ajustar";
             this.btnAjustar.UseVisualStyleBackColor = true;
@@ -47,17 +48,19 @@
             // 
             // textCodidos
             // 
+            this.textCodidos.BackColor = System.Drawing.SystemColors.Menu;
             this.textCodidos.Location = new System.Drawing.Point(198, 32);
             this.textCodidos.Multiline = true;
             this.textCodidos.Name = "textCodidos";
-            this.textCodidos.Size = new System.Drawing.Size(513, 264);
+            this.textCodidos.Size = new System.Drawing.Size(513, 317);
             this.textCodidos.TabIndex = 1;
             // 
             // btnAbrirArquivo
             // 
-            this.btnAbrirArquivo.Location = new System.Drawing.Point(636, 481);
+            this.btnAbrirArquivo.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnAbrirArquivo.Location = new System.Drawing.Point(562, 462);
             this.btnAbrirArquivo.Name = "btnAbrirArquivo";
-            this.btnAbrirArquivo.Size = new System.Drawing.Size(75, 23);
+            this.btnAbrirArquivo.Size = new System.Drawing.Size(149, 42);
             this.btnAbrirArquivo.TabIndex = 2;
             this.btnAbrirArquivo.Text = "Abrir";
             this.btnAbrirArquivo.UseVisualStyleBackColor = true;
@@ -65,24 +68,26 @@
             // 
             // textTipoFormatador
             // 
-            this.textTipoFormatador.Location = new System.Drawing.Point(413, 367);
+            this.textTipoFormatador.Location = new System.Drawing.Point(413, 394);
             this.textTipoFormatador.Name = "textTipoFormatador";
-            this.textTipoFormatador.Size = new System.Drawing.Size(102, 23);
+            this.textTipoFormatador.Size = new System.Drawing.Size(115, 23);
             this.textTipoFormatador.TabIndex = 3;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(413, 345);
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(403, 370);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(93, 15);
+            this.label1.Size = new System.Drawing.Size(125, 21);
             this.label1.TabIndex = 4;
-            this.label1.Text = "Tipo do fortador";
+            this.label1.Text = "Tipo do formato:";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(890, 558);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textTipoFormatador);
